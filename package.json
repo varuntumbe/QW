@@ -1,0 +1,22 @@
+{
+  "name": "qw",
+  "version": "1.0.0",
+  "description": "Takes info using oAuth 2.0 and sends mail",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Varun Hegde",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "googleapis": "^84.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
